@@ -21,7 +21,7 @@ stages:
     uiVeri5ExecuteTests: false
 
   Release:
-    cloudFoundryDeploy: false
+    cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
     cfOrg: "c1231223trial_fresenius-btp-workshop-4yq8319d"
     cfSpace: "dev"
