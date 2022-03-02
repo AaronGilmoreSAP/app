@@ -34,7 +34,7 @@ steps:
     versioningType: "cloud_noTag"
 
   npmExecuteLint:
-    failOnError: true
+    failOnError: false
 
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
